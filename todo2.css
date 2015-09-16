@@ -1,1 +1,37 @@
-sjbgs
+.high>ul {
+  background-color: red;
+}
+
+.medium>ul {
+  background-color: orange;
+}
+
+.low>ul {
+  background-color: gray;
+}
+
+.done>ul {
+  background-color: black;
+}
+
+
+
+.texthigh>li {
+  color: white;
+}
+
+.textmedium>li {
+  color: #f4a460;
+}
+
+.textlow>li {
+  color: black;
+}
+
+.textdone>li {
+  color: #00ffff;
+}
+
+body {
+    background-color: #d3d3d3;
+  }
