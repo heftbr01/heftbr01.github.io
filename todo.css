@@ -1,1 +1,19 @@
-jsgfbljsab
+.high {
+  color: red;
+}
+
+.medium {
+  color: orange;
+}
+
+.low {
+  color: gray;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+body {
+    background-color: #d3d3d3;
+  }
