@@ -30,6 +30,7 @@
 
 .textdone>li {
   color: #00ffff;
+  text-decoration: line-through;
 }
 
 body {
