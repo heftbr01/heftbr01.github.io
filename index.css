@@ -9,6 +9,10 @@ nav {
   height: 50px;
 }
 
+nav a {
+  padding-top:20px;
+}
+
 body {
   margin-top: 60px;
 }
