@@ -27,3 +27,7 @@ body {
   width: 50%;
   background-color: #FFFFF0;
 }
+
+.bottom {
+  float: left;
+}
