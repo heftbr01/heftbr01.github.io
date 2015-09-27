@@ -15,3 +15,15 @@ nav p {
 body {
   margin-top: 60px;
 }
+
+.left {
+  float: left;
+  width: 50%;
+  background-color: blue;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  background-color: #FFFFF0;
+}
