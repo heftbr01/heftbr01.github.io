@@ -6,8 +6,8 @@
   padding-bottom: 25px;
 }
 
-.medium>ul {
-  background-color: orange;
+.little {
+  background-color: red;
 }
 
 .low>ul {
