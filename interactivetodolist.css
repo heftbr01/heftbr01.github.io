@@ -1,8 +1,9 @@
-.high>ul {
+.big>ul {
   background-color: red;
   height: 200px;
   width: 300px;
-  margin-bottom: 25px;
+  margin: auto;
+  padding-bottom: 25px;
 }
 
 .medium>ul {
