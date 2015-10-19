@@ -9,36 +9,17 @@
 .little {
   background-color: red;
   margin: auto;
-  width: 750px;
+  width: 735px;
 }
 
-.low>ul {
-  background-color: gray;
+.high {
+  color: blue;
 }
 
-.done>ul {
-  background-color: black;
+.medium {
+  color: green;
 }
 
-
-
-.texthigh>li {
+.low {
   color: white;
 }
-
-.textmedium>li {
-  color: #654321;
-}
-
-.textlow>li {
-  color: black;
-}
-
-.textdone>li {
-  color: #00ffff;
-  text-decoration: line-through;
-}
-
-body {
-    background-color: #d3d3d3;
-  }
