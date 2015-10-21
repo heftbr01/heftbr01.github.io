@@ -8,7 +8,7 @@ makePage = function() {
   
   
   
-  myBox = document.querySelector(“#textbox”);
+  myBox = document.querySelector(“.textbox”);
   //myPriority = document.querySelector(“#priority”);
   
   //myUl = document.querySelector(“#tasklist”);
