@@ -4,5 +4,5 @@ makePage = function() {
   lcontents = document.createTextNode("This is a paragraph followed by a list");
   
   lcontents1.appendChild(lcontents);
-  document.body.#priority.appendChild(lcontents1);
+  document.body.#.appendChild(lcontents1);
 }
