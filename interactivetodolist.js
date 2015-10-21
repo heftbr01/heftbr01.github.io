@@ -28,5 +28,5 @@ makePage = function() {
   
   myLi.appendChild(myInput);
   myLi.appendChild(myText);
-  myBox.setAttribute("value", "");
+  document.querySelector("#textbox").setAttribute("value", "");
 }
