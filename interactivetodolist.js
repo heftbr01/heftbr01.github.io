@@ -26,4 +26,5 @@ makePage = function() {
   
   myLi.appendChild(myInput);
   myLi.appendChild(myText);
+  alert("It worked3!");
 }
