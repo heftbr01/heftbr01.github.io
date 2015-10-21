@@ -1,8 +1,26 @@
 makePage = function() {
   alert("It worked!")
-  lcontents1 = document.createElement("li");
-  lcontents = document.createTextNode("This is a paragraph followed by a list");
+  //lcontents1 = document.createElement("li");
+  //lcontents = document.createTextNode("This is a paragraph followed by a list");
   
-  lcontents1.appendChild(lcontents);
-  document.body.#.appendChild(lcontents1);
+  //lcontents1.appendChild(lcontents);
+  //document.body.#.appendChild(lcontents1);
+  
+  myBox = document.querySelector(“#textbox”);
+  myPriority = document.querySelector(“#priority”);
+  
+  myUl = document.querySelector(“#tasklist”);
+  
+  
+  myLi = document.createElement(“li”);
+  myLi.classList.add(myPriority.value);
+  
+  myUl.appendChild(myLi);
+  
+  myInput = document.createElement(“INPUT”);
+  myInput.type = “checkbox”;
+  myText = document.createTextNode(myBox.value);
+  
+  myLi.appendChild(myInput);
+  myLi.appendChild(myText);
 }
