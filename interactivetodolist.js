@@ -27,6 +27,7 @@ makePage = function() {
   myText = document.createTextNode(myBox.value);
   
   myLi.appendChild(myInput);
+  myInput.onclick = boxchecked;
   myLi.appendChild(myText);
   //document.querySelector("#textbox").setAttribute("value", "");
 }
