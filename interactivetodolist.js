@@ -8,10 +8,10 @@ makePage = function() {
   
   
   
-  //myBox = document.querySelector(“#textbox”);
-  //myPriority = document.querySelector(“#priority”);
+  myBox = document.querySelector(“#textbox”);
+  myPriority = document.querySelector(“#priority”);
   
-  //myUl = document.querySelector(“#tasklist”);
+  myUl = document.querySelector(“#tasklist”);
   
   
   //myLi = document.createElement(“li”);
