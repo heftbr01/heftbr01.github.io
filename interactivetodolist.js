@@ -24,10 +24,10 @@ makePage = function() {
   
   myInput = document.createElement("INPUT");
   myInput.type = "checkbox";
-  myText = document.createTextNode(myBox.value);
-  
   myLi.appendChild(myInput);
   myInput.onclick = boxchecked;
+  
+  myText = document.createTextNode(myBox.value);
   myLi.appendChild(myText);
   //document.querySelector("#textbox").setAttribute("value", "");
 }
