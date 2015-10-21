@@ -20,11 +20,12 @@ makePage = function() {
   
   myUl.appendChild(myLi);
   
+  alert("It worked3!");
+  
   myInput = document.createElement("INPUT");
   myInput.type = "checkbox";
   myText = document.createTextNode(myBox.value);
   
   myLi.appendChild(myInput);
   myLi.appendChild(myText);
-  alert("It worked3!");
 }
