@@ -30,3 +30,15 @@ makePage = function() {
   myLi.appendChild(myText);
   //document.querySelector("#textbox").setAttribute("value", "");
 }
+
+boxchecked = function() {
+  if(this.checked){
+    this.parentNode.classList.add("done");
+  }
+  else {
+    this.parentNode.classList.remove("done");
+  }
+}
+
+localSave("tasklist");
+restoreList("tasklist", boxchecked);
