@@ -8,22 +8,22 @@ makePage = function() {
   
   
   
-  myBox = document.querySelector(“.textbox”);
-  //myPriority = document.querySelector(“#priority”);
+  myBox = document.querySelector("#textbox");
+  myPriority = document.querySelector("#priority");
   
-  //myUl = document.querySelector(“#tasklist”);
+  myUl = document.querySelector("#tasklist");
   
   alert("It worked2!");
   
-  //myLi = document.createElement(“li”);
- // myLi.classList.add(myPriority.value);
+  myLi = document.createElement("li");
+  myLi.classList.add(myPriority.value);
   
-  //myUl.appendChild(myLi);
+  myUl.appendChild(myLi);
   
-  //myInput = document.createElement(“INPUT”);
-  //myInput.type = “checkbox”;
-  //myText = document.createTextNode(myBox.value);
+  myInput = document.createElement("INPUT");
+  myInput.type = "checkbox";
+  myText = document.createTextNode(myBox.value);
   
-  //myLi.appendChild(myInput);
-  //myLi.appendChild(myText);
+  myLi.appendChild(myInput);
+  myLi.appendChild(myText);
 }
