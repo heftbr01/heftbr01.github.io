@@ -9,10 +9,11 @@ makePage = function() {
   
   
   myBox = document.querySelector(“#textbox”);
-  myPriority = document.querySelector(“#priority”);
+  //myPriority = document.querySelector(“#priority”);
   
-  myUl = document.querySelector(“#tasklist”);
+  //myUl = document.querySelector(“#tasklist”);
   
+  alert("It worked2!");
   
   //myLi = document.createElement(“li”);
  // myLi.classList.add(myPriority.value);
